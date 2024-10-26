@@ -1,0 +1,253 @@
+/* font family link up start */
+@font-face{
+    src: url(../fonts/roboto/roboto-regular.ttf);
+    font-family: roboto-regular;
+}
+@font-face{
+    src: url(../fonts/roboto/roboto-medium.ttf);
+    font-family: roboto-medium;
+}
+@font-face{
+    src: url(../fonts/lato/lato-regular.ttf);
+    font-family: lato-regular;
+}
+@font-face{
+    src: url(../fonts/lato/lato-medium.ttf);
+    font-family: lato-medium;
+}
+@font-face{
+    src: url(../fonts/lato/lato-bold.ttf);
+    font-family: lato-bold;
+}
+@font-face{
+    src: url(../fonts/lato/lato-semibold.ttf);
+    font-family: lato-semibold;
+}
+/* font family link up end */
+/* root variable */
+:root{
+    --yash:#8e8e8e;
+    --black:#333333;
+    --white:#ffffff;
+
+    --regular:400;
+    --medium:500;
+}
+/* common css */
+body{
+    font-family: roboto-regular;
+    font-size: 16px;
+    font-weight: var(--regular);
+    color: var(--yash);
+}
+/* common css */
+/* header start */
+header{
+    padding: 27px 0 30px;
+    background-color: var(--white);
+}
+.logo{
+    font-family: lato-medium;
+    font-size: 30px;
+    font-weight: var(--medium);
+    color: var(--black);
+}
+.menu{}
+.menu ul{}
+.menu ul li{}
+.menu ul li a{
+    padding-right: 30px !important;
+    font-family: lato-regular;
+    font-size: 16px;
+    font-weight: var(--regular);
+    color: var(--yash);
+}
+.menu ul li a:hover{
+    font-family: lato-bold;
+    font-weight: 700;
+    color: var(--black);
+}
+.m_dialog{
+    margin-right: 30px ;
+
+}
+.m_head{
+    border-bottom: none;
+    padding-bottom: 0px;
+}
+.m_input{
+    font-size: 18px;
+    width: 430px;
+    height: 50px;
+}
+.m_body button {
+    padding: 10px 60px;
+    background-color: var(--yash);
+    color: var(--white);
+    border: 1px solid var(--black);
+    border-radius: 10px;
+}
+.m_body button:hover{
+    background-color: var(--black);
+}
+/* header end */
+/* banner start */
+.banner{
+    background-image: url(../img/banner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.s_h1{
+    margin: 215px 0 45px;
+    font-family: lato-bold;
+    font-size: 60px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: var(--white);
+}
+.s_p{ 
+    line-height: 30px;
+    margin-right: 80px;
+    color: var(--white);
+}
+.cm_btn{
+    margin: 60px 0 210px;
+}
+.s_btn{
+    padding: 15px 35px;
+    text-transform: uppercase;
+    background-color: var(--white);
+}
+.s_btn:hover{
+    background-color: var(--yash);
+    color: var(--white);
+}
+.cm_btn i{
+    margin-left: 10px;
+}
+.cc_btn{
+    background: none;
+    border: none;
+    color: var(--yash);
+    text-transform: uppercase;
+}
+.cc_btn:hover{
+    color: var(--black);
+}
+.sp_icon{
+    color: var(--yash);
+}
+.sp_icon:hover{
+    color: var(--black);
+}
+/* banner end */
+/* slider start */
+.slider{
+    margin-bottom: 100px;
+}
+.sl_text{
+    text-align: center;
+}
+.cm_span{
+    width: 2px;
+    height: 50px;
+    background-color: var(--black);
+}
+.cm_h1 {
+    font-family: lato-regular;
+    font-size: 30px;
+    font-weight: var(--regular);
+    color: var(--black);
+}
+.sl_h1{
+    margin: 30px 0 50px;
+}
+.sl_p{
+    line-height: 30px;
+}
+.sl_item{}
+.si_item{
+    margin-top: 120px;
+    border: 1px solid var(--yash);
+    position: relative;
+}
+.icon {
+    font-size: 60px;
+    top: -21px;
+    left: 130px;
+    position: absolute;
+}
+.si_h2{
+    padding: 80px 0 20px;
+    font-family: lato-bold;
+    font-size: 18px;
+    font-weight: 700;
+    color: var(--black);
+}
+
+.si_p{}
+.si_a{
+    padding: 45px  40px ;
+    font-size: 16px;
+}
+.si_a i{
+    padding-left: 15px;
+}
+/* slider end */
+/* about us start */
+.about{
+    margin-bottom: 135px;
+}
+.ab_img{}
+.ab_img img{}
+.ab_text{}
+.ab_h1{
+    margin: 10px 0 40px;
+    line-height: 0;
+}
+.cm_p{
+    line-height: 30px;
+    word-spacing: 2px;
+}
+.p2{
+    margin: 24px 0 46px;
+}
+.ab_btn{
+    border: 1px solid var(--black);
+    border-radius: 0;
+    
+}
+.ab_btn i{
+    padding-left: 10px;
+}
+/* about us end */
+/* recent start */
+.recent{
+    background-color: #f8f8f8;
+}
+.re_h1{
+    margin: 20px 0 110px;
+}
+.cm_nav{
+    --bs-nav-link-hover-color: black;
+}
+.re_li{
+    margin-bottom: 10px;
+}
+.re_menui{
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--yash);
+}
+.re_menui:hover{
+    color: var(--black);
+    border: 2px solid var(--black);
+}
+.re_item{
+    margin-top: 20px;
+}
+
+/* recent end */
+
+
